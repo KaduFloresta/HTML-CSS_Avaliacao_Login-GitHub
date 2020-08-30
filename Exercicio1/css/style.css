@@ -4,6 +4,7 @@ body {
 }
 
 nav {
+    float: left;
     background-color: #d7ccc8;
     width: 20%;
     height: 100%;
@@ -49,14 +50,16 @@ nav ul a {
 }
 
 .content {
+    float: right;
     width: 80%;
-    margin-left: 400px;
+    height: 100%;
 }
 
 .content>div {
     width: 800px;
     height: 100%;
     padding: 30px;
+    margin: 0 auto;
 }
 
 footer {

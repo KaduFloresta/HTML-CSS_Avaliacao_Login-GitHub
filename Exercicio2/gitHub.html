@@ -10,53 +10,67 @@
 </head>
 
 <body>
-    <nav>
-        <ul class="nav-links ">
+    <header>
+        <nav class="navegador">
             <img class="icone" src="img/gato.png" alt="icone">
-            <li><a href="#">Why GitHub?</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Enterprise</a></li>
-            <li><a href="#">Explore</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Pricing</a></li>
-            <div class="barraSearch">
-                <input class="search" type="text" id="searchBar" placeholder="Search GitHub">
-                <li><a href="#">Sign in</a></li>
-                <li><a href="#">Sign up</a></li>
-            </div>
-        </ul>
+            <ul class="nav-links ">
+                <li><a class="linkNav" href="#">Why GitHub?</a></li>
+                <li><a class="linkNav" href="#">Team</a></li>
+                <li><a class="linkNav" href="#">Enterprise</a></li>
+                <li><a class="linkNav" href="#">Explore</a></li>
+                <li><a class="linkNav" href="#">Marketing</a></li>
+                <li><a class="linkNav" href="#">Pricing</a></li>
+            </ul>
+        </nav>
 
-    </nav>
+        <div class="divSearch">
+            <input class="search" type="text" id="searchBar" placeholder="Search GitHub">
+            <a class="signIn" href="#">Sign in</a>
+            <input class="signUp" type="button" value="Sign up">
+        </div>
+    </header>
+
     <div class="content">
-        <div class="titulo">
-            Build for developers
+        <div class="contentText">
+            <h1 class="textoMaior">Built for developers</h1>
+            <p class="descricaoContent">
+                GitHub is a development platform inspired by the way you work. From <a href="#" class="textLink">open
+                    source</a> to <a href="#" class="textLink">business</a>, you can host and
+                review code, manage projects, and build software alongside 50 million developers.
+            </p>
         </div>
-        <br>
-        <div class="conteudo">
-            GitHub is a development platform ispired by the way you work. From Opne source to business, you can host and
-            review code,manage projects, and build softaware alongside 50 million developers.
-        </div>
-        <div class="contentPage">
+        <div class="contentBox">
             <form action="#" method="post">
-                <label for="username"><b>Username</b></label><br>
-                <input class="inputBar" type="text" id="username">
-                <label for="email"><b>Email</b></label><br>
-                <input class="inputBar" type="email" id="email">
-                <label for="password"><b>Password</b></label><br>
-                <input class="inputBar" type="password" id="senha">
 
-                <div class="textBar">
-                    Make sure it's at least 15 characters OR at least 8 characters including a number and a lowerase
-                    letter.
-                </div>
-                
-                <br>
-                <input class="button submit" type="submit" value="Sign up for GitHub">
-                <br>
-                <div class="textBar">
-                    By clicking "Sign up for GitHub", you agree to our Terms Of Service and Privacy Statement. We'll
-                    occasionally send account related emails.
-                </div>
+                <label for="username">Username</label>
+
+                <input class="inputBox" type="text" id="username">
+
+                <label for="email">Email</label>
+
+                <input class="inputBox" type="email" id="email">
+
+                <label for="password">Password</label>
+
+                <input class="inputBox" type="password" id="senha">
+
+                <p class="textBox1">
+                    Make sure it's <span data-more-than-n-chars="">at least 15 characters</span> OR <span
+                        data-min-chars="">at least 8 characters</span> <span data-number-requirement="">including a
+                        number</span> <span data-letter-requirement="">and a lowercase letter</span>. <a
+                        class="linkBlue" href="#" target="_blank">Learn more</a>.
+                </p>
+
+                <button type="submit" class="button submit">Sign up for GitHub</button>
+
+                <p class="textBox2">
+                    By clicking "Sign up for GitHub", you agree to our
+                    <a class="linkBlue" href="#" target="_blank">Terms of
+                        Service</a> and
+                    <a class="linkBlue" href="#" target="_blank">Privacy
+                        Statement</a>. <span class="email-notice">We’ll occasionally send you
+                        account related emails.</span>
+                </p>
             </form>
         </div>
     </div>
