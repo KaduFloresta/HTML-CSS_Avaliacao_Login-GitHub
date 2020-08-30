@@ -1,39 +1,42 @@
+header {
+    display: block;
+    background-color: rgb(36, 41, 46);
+    height: 72px;
+}
+
 nav {
-    background-color: #24292e;
+    float: left;
+    display: block;
+    margin-left: 45px;
+    height: 100%;
 }
 
 nav img {
-    width: 40px;
-    padding-top: 5px;
-}
-
-body {
-    background-image: url("../img/fundo.png");
-    background-size: 100%;
-    font-size: 10px;
-    margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    height: 39px;
+    width: 39px;
+    padding: 16px 0px;
 }
 
 .nav-links {
-    margin: 0px;
-    padding: 15px;
-    text-align: left;
+    margin: 1px;
+    float: right;
+    padding-left: 6px;
 }
 
 .nav-links>li {
     display: inline-block;
     color: white;
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin-left: 17px;
 }
 
 .nav-links a {
     line-height: 50px;
     text-decoration: none;
     color: white;
-    padding: 0 10px;
     display: inline-block;
+    padding: 10px 0px;
 }
 
 .nav-links>div {
@@ -41,72 +44,166 @@ body {
     margin-right: 5px;
 }
 
-.titulo {
-    display: inline-block;
-    color: white;
-    font-size: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.divSearch {
+    display: block;
+    float: right;
+    padding: 16px 40px;
 }
 
-.conteudo {
-    display: inline-block;
-    width: 300px;
-    color: #aaadaf;
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+body {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 16px;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.search {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 10px;
+    color: white;
+    width: 221px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #404448;
+}
+
+.signIn {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.signUp {
+    border: 1px solid white;
+    background-color: rgb(36, 41, 46);
+    border-radius: 5px;
+    color: white;
+    padding: 6px 6px 6px 6px;
+    font-size: 16px;
+}
+
+.textoMaior {
+    float: left;
+    width: 50%;
+    margin-right: 2%;
+    color: rgb(255, 255, 255);
+    font-size: 67px;
+    font-weight: 500;
+    line-height: 68px;
+}
+
+.descricaoContent {
+    float: left;
+    width: 70%;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: -30px;
 }
 
 .content {
+    background: url("../img/simple-codelines.svg") rgb(43, 49, 55);
     background-color: #24292ef5;
     background-size: 100%;
-    min-height: 540px;
-}
-
-.contentPage {
-    margin: 0 auto;
-    width: 350px;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    background-color: white;
-    padding: 20px 10px;
-    border-radius: 5px;
-    font-size: 11px;
-}
-
-.textBar {
-    font-size: 10px;
-    color: #525658;
-    text-align: center;
-}
-
-.inputBar {
-    width: 98%;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    height: 35px;
-    border: 1px solid #7c80833a;
-    border-radius: 5px;
-}
-
-.selectBar {
+    height: 100%;
     width: 100%;
-    margin-bottom: 10px;
-    height: 22px;
-    border: 0;
-    border-radius: 4px 4px 4px 4px;
+    position: absolute;
+}
+
+.contentText {
+    margin-left: 184px;
+    margin-top: 113px;
+    float: left;
+    width: 50%;
+}
+
+.contentBox {
+    float: right;
+    margin-right: 208px;
+    margin-top: -387px;
+    background-color: rgb(250, 251, 252);
+    border-radius: 6px;
+    color: rgb(88, 96, 105);
+    line-height: 24px;
+    overflow-wrap: break-word;
+    padding: 13px 20px;
+    width: 28%;
+    height: 76%;
+}
+
+.textBox1 {
+    color: rgb(36, 41, 46);
+    display: block;
+    font-size: 12px;
+    height: 54px;
+    line-height: 18px;
+    margin-bottom: 0px;
+    margin-inline-end: 0px;
+    margin-top: 11px;
+}
+
+.textBox2 {
+    color: rgb(106, 115, 125);
+    font-size: 12px;
+    line-height: 18px;
+    margin-block-end: 0px;
+    margin-block-start: 16px;
+    margin-top: 30px;
+    text-size-adjust: 100%;
+}
+
+.inputBox {
+    background-color: rgb(250, 251, 252);
+    border-color: rgb(225, 228, 232);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: rgba(225, 228, 232, 0.2) 0px 1px 0px 0px inset;
+    box-sizing: border-box;
+    padding: 16px;
+    text-size-adjust: 100%;
+    width: 100%;
+}
+
+label {
+    box-sizing: border-box;
+    color: rgb(36, 41, 46);
+    cursor: default;
+    display: block;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    height: 18px;
+    line-height: 21px;
+    margin-bottom: 14px;
+    overflow-wrap: break-word;
+    position: static;
+    text-align: left;
+    text-size-adjust: 100%;
+    padding: 3px 2px;
+    margin-top: 11px;
 }
 
 .button {
+    background-color: rgb(46, 188, 79);
+    border-color: rgb(46, 188, 79);
+    border-radius: 6px;
+    border-bottom-style: solid;
+    border-bottom-width: -1px;
     color: white;
-    border: 0;
-    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 16px;
+    font-weight: bold;
+    font-style: inherit;
+    padding: 20px 32px;
+    text-size-adjust: 100%;
     width: 100%;
-    height: 45px;
-    padding: 5px 0 5px 0;
-    margin-bottom: 10px;
-    border-radius: 4px 4px 4px 4px;
 }
 
 .submit {
@@ -114,8 +211,17 @@ body {
 }
 
 .textLink {
-    text-decoration: none;
-    color: #c6e3eb;
-    font-size: 14px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(255, 255, 255, 0.125);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration-line: none;
+}
+
+.linkBlue {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(3, 102, 214);
+    text-decoration-line: none;
 }
