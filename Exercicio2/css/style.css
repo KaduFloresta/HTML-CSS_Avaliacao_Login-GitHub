@@ -2,7 +2,7 @@ body {
     color: rgba(255, 255, 255, 0.6);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
     font-size: 16px;
-    margin: 0;
+    margin: -21px 0px;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -78,8 +78,12 @@ nav img {
 }
 
 .search {
-    border: none;
+    border-color: #404448;
     background: none;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    border-radius: 6px;
     color: lightgray;
     font-size: 16px;
     padding: 7px 4px;
@@ -212,19 +216,6 @@ label {
     color: black;
 }
 
-input:focus, textarea:focus {
-    background: #fafbfc;
-    /* Fundo amarelo palha */
-    border: 2px solid #afcff1;
-    /* Borda vermelha de 2px */
-}
-
-textarea:focus {
-    border-width: 1px;
-    /* Redefine a borda para 1px 
-                                   se o campo for textarea */
-}
-
 .button {
     background-color: rgb(46, 188, 79);
     border-color: rgb(46, 188, 79);
@@ -239,6 +230,8 @@ textarea:focus {
     text-size-adjust: 100%;
     margin: -14px 4px;
 }
+
+
 
 .textBox1 {
     color: rgb(36, 41, 46);
