@@ -10,7 +10,7 @@ Avaliação Desenvolvimento Web - Senac 2020
 1.	Para o exercício 1 utilizaremos o código da pasta avaliacao1, o objetivo é ter a seguinte página ao final:
  
 # TELA 1
-
+<img src="/img/tela1.png" alt="drawing" width="400"/>
 •	Escrever uma meta tag com a descrição da página: "página para a avaliação 1 de HTML e CSS".
 •	Escrever uma meta tag com o nome do autor da página (você).
 
