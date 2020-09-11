@@ -11,7 +11,7 @@ Avaliação Desenvolvimento Web - Senac 2020
  
 # TELA 1
 
-<img src="../Avaliacao-HTML-CSS/Exercicio1/img/tela1.png" alt="drawing" width="800"/>
+<img src="/img/tela1.png" alt="drawing" width="800"/>
 
 •	Escrever uma meta tag com a descrição da página: "página para a avaliação 1 de HTML e CSS".
 •	Escrever uma meta tag com o nome do autor da página (você).
