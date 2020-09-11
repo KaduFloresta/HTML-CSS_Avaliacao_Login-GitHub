@@ -38,8 +38,11 @@ Avaliação Desenvolvimento Web - Senac 2020
 •	Não precisa realizar as ações dos botões da navbar, nem criar os ícones de flechas.
 •	O links não precisam enviar para as páginas originais, eles podem ser vazios.
 •	Você não precisa desenvolver o resto da página, apenas o que aparece no print acima. (navbar com “built for developers” + formulário).
-•	Critérios de avaliação:
-o	Organização do código;
-o	Utilização inteligente de seletores;
-o	Fidelidade aos tamanhos;
-o	Fidelidade às cores e transparências;
+
+**Critérios de avaliação:**
+- Organização do código;
+- Utilização inteligente de seletores;
+- Fidelidade aos tamanhos;
+- Fidelidade às cores e transparências;
+
+**Boa diversão!**
