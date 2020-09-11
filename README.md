@@ -7,11 +7,12 @@ Análise e Desenvolvimento de Sistemas - Senac 2020
 ## Instruções
 Avaliação Desenvolvimento Web - Senac 2020
 
-1.	Para o exercício 1 utilizaremos o código da pasta avaliacao1, o objetivo é ter a seguinte página ao final:
- 
 # TELA 1
 
+1.	Para o exercício 1 utilizaremos o código da pasta avaliacao1, o objetivo é ter a seguinte página ao final:
+
 •	Escrever uma meta tag com a descrição da página: "página para a avaliação 1 de HTML e CSS".
+
 •	Escrever uma meta tag com o nome do autor da página (você).
 
 •	Escrever o que for necessário no CSS para que nav e content fiquem lado a lado (20% para nav e 80% para contente). Content deverá ter também 100% de altura.
@@ -30,13 +31,16 @@ Avaliação Desenvolvimento Web - Senac 2020
 
 •	Crie as páginas sobre.html e contanto.html com estilo igual ao index.html (não esqueça de alterar os links e o active dos botões).
 
-2.	Desenvolva a tela inicial (antes do login) do site github.com:
- 
 # TELA 2
 
+2.	Desenvolva a tela inicial (antes do login) do site github.com:
+
 •	Você deverá fazer um print de como a tela aparece no seu navegador e incluir junto com a solução.
+
 •	Não precisa realizar as ações dos botões da navbar, nem criar os ícones de flechas.
+
 •	O links não precisam enviar para as páginas originais, eles podem ser vazios.
+
 •	Você não precisa desenvolver o resto da página, apenas o que aparece no print acima. (navbar com “built for developers” + formulário).
 
 **Critérios de avaliação:**
